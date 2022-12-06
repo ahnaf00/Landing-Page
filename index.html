@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <!-- Botstrap Css CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- AOS CDN link Css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- <link rel="stylesheet" href="bootstrapCSS/bootstrap.min.css"> -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -44,7 +46,7 @@
     <div class="container hero-section">
       <div class="col-lg-12">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-up">
             <h1>
               Expert SEO, SEM <br> Services in London
             </h1>
@@ -56,7 +58,7 @@
               <div class="btn btn-primary">Contact Us</div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <img src="img/hero_1.png.webp" class="img-fluid" alt="hero section image">
           </div>
         </div>
@@ -67,7 +69,7 @@
     <!-- Feature Section  -->
     <div class="container feature">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12" data-aos="fade-up">
           <div class="feature-head text-center">
             <h1>Our Feature</h1>
             <p class="">Far far away, behind the word mountains, far from the countries Vokalia<br> and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove<br> right at the coast of the Semantics, a large language ocean.</p>
@@ -78,7 +80,7 @@
           <div class="feature-cild">
 
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-4" data-aos="fade-up">
                 <div class="text-center">
                   <div class="icon">
                     <img src="img/icons/rocket.png" class="img-fluid" alt="">
@@ -88,7 +90,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4">
+              <div class="col-lg-4" data-aos="fade-up">
                 <div class="text-center">
                   <div class="icon">
                     <img src="img/icons/link.png" class="img-fluid" alt="">
@@ -98,7 +100,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4">
+              <div class="col-lg-4" data-aos="fade-up">
                 <div class="text-center">
                   <div class="icon">
                     <img src="img/icons/trophy.png" class="img-fluid" alt="">
@@ -120,10 +122,10 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up">
               <img src="img/about_1.png.webp" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 info">
+            <div class="col-lg-6 info" data-aos="fade-up">
               <h1>Why Our Agency</h1>
               <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
@@ -145,11 +147,11 @@
     <!-- Services section -->
     <div class="container services">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center" data-aos="fade-up">
           <h1>Our Services</h1>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" data-aos="fade-up">
         <div class="col-lg-8">
           <div class="row">
             <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
@@ -229,13 +231,13 @@
     <div class="container-fluid testimonial bg-light">
       <div class="">
         <div class="row">
-          <div class="col-lg-12  text-center testimonial-head">
+          <div class="col-lg-12  text-center testimonial-head" data-aos="fade-up">
             <div class="row">
               <h1>Testimonials</h1>
             </div>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated<br> they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
-          <div class="col-lg-12 sliders">
+          <div class="col-lg-12 sliders" data-aos="fade-up">
             <!-- Sliders -->
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -500,6 +502,14 @@
     <!-- Bootstrap Js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- <script src="bootstrapJS/bootstrap.min.js"></script> -->
+    <!-- AOS CDN Link JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000
+      });
+    </script>
     <!-- Custom Js -->
     <script src="main.js"></script>
   </body>
